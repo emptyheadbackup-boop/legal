@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — EmptyHead</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { -webkit-font-smoothing:antialiased; }
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background: #080C17;
+  color: rgba(192,204,232,0.72);
+  min-height: 100vh;
+  padding: 0 0 80px;
+}
+
+.header {
+  padding: 64px 0 48px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  text-align: center;
+}
+.header-eyebrow {
+  font-size: 11px; font-weight: 200;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  color: rgba(123,163,216,0.5);
+  margin-bottom: 16px;
+}
+.header-title {
+  font-size: 40px; font-weight: 200;
+  letter-spacing: -0.03em; line-height: 1;
+  color: rgba(228,234,250,0.88);
+  margin-bottom: 16px;
+}
+.header-meta {
+  font-size: 12px; font-weight: 300;
+  color: rgba(158,175,215,0.32);
+  letter-spacing: 0.01em;
+}
+.header-meta span {
+  color: rgba(123,163,216,0.45);
+  font-style: italic;
+}
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.section {
+  margin-top: 56px;
+}
+.section-title {
+  font-size: 11px; font-weight: 200;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  color: rgba(123,163,216,0.45);
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+p {
+  font-size: 15px; font-weight: 300;
+  line-height: 1.8; letter-spacing: 0.004em;
+  color: rgba(192,204,232,0.65);
+  margin-bottom: 16px;
+}
+p:last-child { margin-bottom: 0; }
+
+ul {
+  list-style: none;
+  margin-bottom: 16px;
+}
+ul li {
+  font-size: 15px; font-weight: 300;
+  line-height: 1.8; letter-spacing: 0.004em;
+  color: rgba(192,204,232,0.65);
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 8px;
+}
+ul li::before {
+  content: '—';
+  position: absolute; left: 0;
+  color: rgba(123,163,216,0.3);
+  font-weight: 200;
+}
+
+.highlight {
+  background: rgba(123,163,216,0.06);
+  border: 1px solid rgba(123,163,216,0.12);
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin: 24px 0;
+}
+.highlight p {
+  color: rgba(228,234,250,0.7);
+  margin-bottom: 0;
+}
+
+a {
+  color: rgba(123,163,216,0.75);
+  text-decoration: none;
+}
+a:hover { color: #7BA3D8; }
+
+.placeholder {
+  color: rgba(123,163,216,0.55);
+  font-style: italic;
+  background: rgba(123,163,216,0.08);
+  border-radius: 4px;
+  padding: 1px 6px;
+}
+
+.footer {
+  margin-top: 72px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  text-align: center;
+}
+.footer-text {
+  font-size: 11px; font-weight: 200;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: rgba(158,175,215,0.2);
+}
+.footer-link {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 12px; font-weight: 300;
+  color: rgba(123,163,216,0.4);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+.footer-link:hover { color: rgba(123,163,216,0.7); }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="container">
+    <div class="header-eyebrow">EmptyHead · Legal</div>
+    <div class="header-title">Privacy Policy</div>
+    <div class="header-meta">Effective date: <span>[DATE]</span> &nbsp;·&nbsp; Last updated: <span>[DATE]</span></div>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="highlight">
+    <p>EmptyHead is built on a simple principle: your thoughts are yours. We collect only what is necessary to run the app, and we never sell or share your personal data with advertisers.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">1. Who we are</div>
+    <p>EmptyHead is developed and operated by <span class="placeholder">[YOUR NAME / FOP NAME]</span>, based in <span class="placeholder">[CITY, COUNTRY]</span>.</p>
+    <p>If you have any questions about this Privacy Policy, you can contact us at <a href="mailto:hello@emptyhead.app">hello@emptyhead.app</a>.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">2. What information we collect</div>
+    <p>We collect only the minimum information required to provide the service:</p>
+    <ul>
+      <li><strong>Thought dumps</strong> — the text you write when using the app. This is stored in Firebase Firestore under your user account.</li>
+      <li><strong>AI-generated collections</strong> — the collections and groupings created by our AI from your dumps.</li>
+      <li><strong>Account data</strong> — your user ID and account creation date, managed by Firebase Authentication.</li>
+      <li><strong>Subscription status</strong> — whether you have an active Pro subscription, managed by Adapty.</li>
+    </ul>
+    <p>We do not collect your name, location, contacts, photos, or any data beyond what is listed above.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">3. How we use your information</div>
+    <p>Your information is used solely to:</p>
+    <ul>
+      <li>Store and display your thought dumps and collections within the app</li>
+      <li>Process your text through our AI to generate collections</li>
+      <li>Manage your subscription status</li>
+      <li>Send you local notifications if you have enabled the reminder feature</li>
+    </ul>
+    <p>We do not use your data for advertising, profiling, or any purpose beyond operating the app.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">4. Third-party services</div>
+    <p>EmptyHead uses the following third-party services to operate:</p>
+    <ul>
+      <li><strong>Firebase (Google)</strong> — cloud database and authentication. Privacy policy: firebase.google.com/support/privacy</li>
+      <li><strong>Adapty</strong> — subscription management. Privacy policy: adapty.io/privacy</li>
+    </ul>
+    <p>We do not integrate any advertising SDKs, analytics trackers, or social media SDKs. Your data is not shared with any other third parties.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">5. AI processing</div>
+    <p>When you release a thought dump, the text is sent to our AI endpoint for processing. This is used exclusively to generate collections and groupings from your thoughts. We do not use your thought content to train AI models.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">6. Data storage and security</div>
+    <p>Your data is stored in Firebase Firestore. Firebase provides industry-standard security including encryption in transit and at rest. Access to your data is restricted to your authenticated user account.</p>
+    <p>We retain your data for as long as your account is active. If you delete your data through the app (Settings → Data → Delete all my data), all your thought dumps and collections will be permanently removed.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">7. Your rights</div>
+    <p>You have the right to:</p>
+    <ul>
+      <li>Access the data we hold about you</li>
+      <li>Delete all your data at any time through the app (Settings → Data → Delete all my data)</li>
+      <li>Request a copy of your data via hello@emptyhead.app</li>
+      <li>Contact us with any privacy-related questions or concerns</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-title">8. Children's privacy</div>
+    <p>EmptyHead is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us at <a href="mailto:hello@emptyhead.app">hello@emptyhead.app</a>.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">9. Changes to this policy</div>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes by updating the date at the top of this page. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">10. Contact</div>
+    <p>For any privacy-related questions, please contact us at <a href="mailto:hello@emptyhead.app">hello@emptyhead.app</a>.</p>
+  </div>
+
+  <div class="footer">
+    <div class="footer-text">EmptyHead · Privacy Policy · <span class="placeholder">[DATE]</span></div>
+    <a href="terms.html" class="footer-link">Terms of Use →</a>
+  </div>
+
+</div>
+</body>
+</html>
